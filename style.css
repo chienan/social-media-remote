@@ -1,0 +1,50 @@
+* {
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  color: #28aabd;
+}
+
+.list {
+  padding-bottom: 50px;
+}
+
+.render-page {
+  padding: 40px;
+}
+
+.list, .render-page {
+  background-color: #d4ebed;
+}
+
+.btn-add-fav {
+  color: #888888;
+}
+
+#show-all:hover, .fa-venus:hover, .fa-mars-stroke:hover, 
+.btn-show-user:hover, .btn-add-fav:hover {
+  color: #28aabd;
+  cursor: pointer;
+
+}
+
+.card {
+  box-shadow: -18px 19px 31px rgba(0, 0, 0, 0.1);
+}
+
+#user-modal-avatar img {
+  width: 250px;
+  border-radius: 25%;
+}
+
+#show-all, .fa-venus, .fa-mars-stroke {
+  font-size: 1.5em;
+  color: #888888;
+}
+
+
+.carousel-caption {
+  height: 100px;
+  font-size: 1.5em;
+}
